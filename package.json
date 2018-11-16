@@ -173,5 +173,19 @@
     "docs",
     "core/modules/*",
     "core/module"
+  ],
+  "bundlesize": [
+    {
+      "path": "./dist/app.*.js",
+      "maxSize": "95 kB"
+    },
+    {
+      "path": "./dist/vendor.*.js",
+      "maxSize": "180 kB"
+    },
+    {
+      "path": "./dist/manifest.*.js",
+      "maxSize": "2 kB"
+    }
   ]
 }
