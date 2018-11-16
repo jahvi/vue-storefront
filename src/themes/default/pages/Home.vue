@@ -1,5 +1,6 @@
 <template>
   <div id="home">
+    <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span>
     <main-slider />
 
     <promoted-offers/>
